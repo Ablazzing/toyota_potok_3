@@ -2,10 +2,13 @@ package com.javaacademy.toyota.car.exception;
 
 import com.javaacademy.toyota.shop.CarModel;
 
-public class CarNotFoundInStorage extends Exception {
+/**
+ * Ошибка: Машина отсутсвует на складе
+ */
+public class CarNotFoundInStorageException extends Exception {
     private final CarModel carModel;
 
-    public CarNotFoundInStorage(String message, CarModel carModel) {
+    public CarNotFoundInStorageException(String message, CarModel carModel) {
         super(message);
         this.carModel = carModel;
     }

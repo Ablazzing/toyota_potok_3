@@ -1,2 +1,7 @@
-package com.javaacademy.toyota.car.type;public class Roof {
+package com.javaacademy.toyota.car.detail;
+
+/**
+ * Крыша
+ */
+public class Roof extends TurnDetail {
 }

@@ -1,2 +1,8 @@
-package com.javaacademy.toyota.detail;public enum TransmissionType {
+package com.javaacademy.toyota.car.detail;
+
+/**
+ * Тип передач
+ */
+public enum TransmissionType {
+    AUTO, MECHANIC, ROBOT;
 }

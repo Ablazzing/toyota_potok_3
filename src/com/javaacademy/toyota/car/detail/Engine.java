@@ -1,2 +1,8 @@
-package com.javaacademy.toyota.car.detail;public class Engine {
+package com.javaacademy.toyota.car.detail;
+
+/**
+ * Двигатель
+ */
+public class Engine extends CrushDetail {
+
 }

@@ -1,2 +1,7 @@
-package com.javaacademy.toyota.car.detail;public class HeadLigths {
+package com.javaacademy.toyota.car.detail;
+
+/**
+ * Фары
+ */
+public class HeadLights extends CrushDetail {
 }

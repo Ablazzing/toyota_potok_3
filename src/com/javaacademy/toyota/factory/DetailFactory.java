@@ -13,10 +13,13 @@ import com.javaacademy.toyota.car.detail.Usb;
 import com.javaacademy.toyota.car.detail.Wheel;
 import com.javaacademy.toyota.car.detail.WheelDiameter;
 
-public class Factory {
+/**
+ * Завод по производству деталей
+ */
+public class DetailFactory {
     private final Country country;
 
-    public Factory(Country country) {
+    public DetailFactory(Country country) {
         this.country = country;
     }
 

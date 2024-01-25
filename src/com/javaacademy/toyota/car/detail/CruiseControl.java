@@ -1,2 +1,7 @@
-package com.javaacademy.toyota.car.detail;public class CruiseControle {
+package com.javaacademy.toyota.car.detail;
+
+/**
+ * Круиз контроль
+ */
+public class CruiseControl extends TurnDetail{
 }
